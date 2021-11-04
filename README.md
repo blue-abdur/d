@@ -47,6 +47,12 @@ La librairie utilisé est LME4 et la f() est LMER [qui utilise un hypothèse d'�
 (rappel: le residu represente l'erreur de mesure + les informations non disponibles)
 
 Quelles sont les condition de validité? Normalité du résidu (des fous des maths mesurent la normalité de la variable aléatoire)
+
+
+  
+  
+  Pas de bouqins sur la survie dans le drive, se référer aux cours
+  
   
   
   Question 3  
