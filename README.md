@@ -25,6 +25,24 @@ Question 2
 
 
 
+Remarque: Application au modèle linéaire
+{hdrs = a + b* groupe + c* visite + d* groupe* visite + €} -> tester d =/= 0 pour y arriver ==>> FAUX
+Parce que qu'i n'y a pas d'effet "sujet", comme si chaque mesure provenait de différents individus; cependant la variable sujet serait autant de variables sujets qui ne pourraient pas être ajustéessimplement (n variables binairespour n sujet)
+SOLUTION:
+Simplification de la variable catégorielle en une variable continue de loi N(0, sigma), c'est un effet aléatoire. Cela complique très fortement le modèle
+C'est l'introduction de cette variable aléatoire qui rend le modèle mixte
+Cet ajustement se fait si cette variable est une variable d'ajustement
+
+{hdrs = a + b* groupe + c* visite + d* groupe* visite + e* sujet €} -> tester d =/= 0 pour y arriver ==>> bonne démarche
+La viste peut être choisie en nulérique ou catégorielle, et au lieu de comprer des pentes on compare des évolution (à notre discretion, numérique si assez linéaire)
+
+A propos des résidus
+Sur des mesure répétés, auto corrélation des résidus mesurés, pas nécessaire de le prendre en compte,
+cependant, il est possible de mesure la corrélation des résidus, les résidus sur les diagonales seront égales (autocorrélation en bande), et à cause de cette corrélation le résidu devient prévisible
+
+La librairie utilisé est LME4 et la f() est LMER [qui utilise un hypothèse d'égalité de corrélation, avec une fonction supplémentaire pour mesurer les corrélations des résidus]
+
+(rappel: le residu represente l'erreur de mesure + les informations non disponibles)
 
 
 
