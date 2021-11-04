@@ -47,6 +47,11 @@ La librairie utilisé est LME4 et la f() est LMER [qui utilise un hypothèse d'�
 (rappel: le residu represente l'erreur de mesure + les informations non disponibles)
 
 Quelles sont les condition de validité? Normalité du résidu (des fous des maths mesurent la normalité de la variable aléatoire)
+  
+  
+  Question 3  
+Analyse de survie, on doit faire une analyse de survie, un peu de data management sera tout à fait nécessaire pour créer une variable binaire et un délai à survenue de l'évènement
+Avec une petite courbe de Kaplan Meyer, petit test du log rank -> il faut cependant que la censure soit non informative LOL (si le score augmente et que le payient est perdu de vue -> non valide 
 
 
 
