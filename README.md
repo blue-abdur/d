@@ -59,9 +59,6 @@ Quelles sont les condition de validité? Normalité du résidu (des fous des mat
 Analyse de survie, on doit faire une analyse de survie, un peu de data management sera tout à fait nécessaire pour créer une variable binaire et un délai à survenue de l'évènement
 Avec une petite courbe de Kaplan Meyer, petit test du log rank -> il faut cependant que la censure soit non informative LOL (si le score augmente et que le payient est perdu de vue -> non valide 
 
-
-
-
-
-
+  
+ 
 
