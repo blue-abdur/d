@@ -1,6 +1,8 @@
 # d
 Devoir 2 master 2
 
+Jeudi 04/11
+
 Question 1
 
 Il faut aussi revalider l'echelle de Hamilton afin de bien confirmer sa pertinence
@@ -44,7 +46,7 @@ La librairie utilisé est LME4 et la f() est LMER [qui utilise un hypothèse d'�
 
 (rappel: le residu represente l'erreur de mesure + les informations non disponibles)
 
-
+Quelles sont les condition de validité? Normalité du résidu (des fous des maths mesurent la normalité de la variable aléatoire)
 
 
 
