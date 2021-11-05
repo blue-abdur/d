@@ -4,6 +4,8 @@ Devoir 2 master 2
 Jeudi 04/11
 
 Question 1
+faire le oeficient de chroneback et analyse de la structurez dimensionnelle (faire un accor interjuge avec le scl90 serait ne répondrait pas à la question)
+
 
 Il faut aussi revalider l'echelle de Hamilton afin de bien confirmer sa pertinence
 
